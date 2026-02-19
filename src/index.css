@@ -38,6 +38,10 @@ All colors MUST be HSL.
 
     --radius: 0.5rem;
 
+    /* EdgeFinder custom tokens */
+    --ev-positive: 142 71% 45%;
+    --ev-negative: 0 84% 60%;
+
     --sidebar-background: 0 0% 98%;
 
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -91,6 +95,10 @@ All colors MUST be HSL.
     --sidebar-accent-foreground: 240 4.8% 95.9%;
     --sidebar-border: 240 3.7% 15.9%;
     --sidebar-ring: 217.2 91.2% 59.8%;
+
+    /* EdgeFinder dark-mode overrides */
+    --ev-positive: 142 71% 45%;
+    --ev-negative: 0 72% 58%;
   }
 }
 
